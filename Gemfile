@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# gem 'sqlite3'
+gem 'mysql2'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -50,3 +51,5 @@ gem 'bootstrap-sass'
 group :development do
 	gem 'rails_layout'
 end
+
+gem 'activeadmin', github: 'gregbell/active_admin'
