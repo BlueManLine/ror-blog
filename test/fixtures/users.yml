@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  status: 1
+  hash: MyString
+  email: MyString
+  password: MyString
+  ip_login: MyString
+  ip_created: 2014-02-20 14:42:09
+
+two:
+  status: 1
+  hash: MyString
+  email: MyString
+  password: MyString
+  ip_login: MyString
+  ip_created: 2014-02-20 14:42:09
