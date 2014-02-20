@@ -43,3 +43,10 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'haml-rails'
+gem 'bootstrap-sass'
+
+group :development do
+	gem 'rails_layout'
+end
