@@ -47,9 +47,11 @@ end
 
 gem 'haml-rails'
 gem 'bootstrap-sass'
+gem 'devise'
 
 group :development do
 	gem 'rails_layout'
+	gem 'better_errors'
+  	gem 'binding_of_caller'
+  	gem 'meta_request'
 end
-
-gem 'activeadmin', github: 'gregbell/active_admin'
