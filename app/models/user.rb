@@ -34,6 +34,18 @@ class User < ActiveRecord::Base
                 required true
             end
         end
+        edit do
+            field :status do
+                required true
+            end
+            field :email do
+                required true
+            end
+            field :nick do
+                required true
+            end
+            field :password
+        end
     end
 
 end

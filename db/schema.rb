@@ -11,3 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+ActiveRecord::Schema.define(version: 20140312103952) do
+
+  create_table "users", force: true do |t|
+    t.integer  "status",                     null: false
+    t.string   "activation_hash"
+    t.string   "email",                      null: false
+    t.string   "nick",                       null: false
+    t.string   "password",                   null: false
+    t.string   "ip_login"
+    t.string   "ip_created",      limit: 32
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
+  end
+
+end
